@@ -27,7 +27,7 @@ function SignIn() {
             <h1>Entrar</h1>
             <input type="text" placeholder="email@email.com" value={email} onChange={ (e) => setEmail(e.target.email)} />
             <input type="password" placeholder="********" value={password} onchange={ (e) => setPassword(e.target.value)} />
-            <Button variant="contained" color="primary" type="submit">Primary</Button>
+            <Button variant="contained" color="primary" type="submit">Entrar</Button>
 
           </form>
 
